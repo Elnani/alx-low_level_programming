@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main- A program that prints various computer types
- * Return : always 0
+ *main- a line that outputs Hello world using printf
+ *Return: 0(Success)
  */
 int main(void)
 {
