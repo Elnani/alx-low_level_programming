@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main- a line that outputs Hello world using printf
+ *main- a line that prints size of types
  *Return: 0(Success)
  */
 int main(void)
