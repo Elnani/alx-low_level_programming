@@ -10,5 +10,6 @@ int main(void)
 
 	for (nani = 0; nani < 10; nani++)
 		printf("%d", nani);
+	print("\n");
 	return (0);
 }
