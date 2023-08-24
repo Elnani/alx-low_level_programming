@@ -9,7 +9,6 @@ int main(void)
 	char nani;
 
 	for (nani = 0; nani < 10; nani++)
-		putchar(nani);
-	putchar('\n');
+		printf("%c\n", nani);
 	return (0);
 }
