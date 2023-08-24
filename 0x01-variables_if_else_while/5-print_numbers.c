@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int nani;
+	char nani;
 
-	for (nani = 0; nani < 10; nani++)
+	for (nani = '0'; nani < '10'; nani++)
 		putchar(nani);
 	putchar('\n');
 	return (0);
