@@ -9,6 +9,6 @@ int main(void)
 	char nani;
 
 	for (nani = 0; nani < 10; nani++)
-		printf("%s", nani);
+		printf("%d", nani);
 	return (0);
 }
