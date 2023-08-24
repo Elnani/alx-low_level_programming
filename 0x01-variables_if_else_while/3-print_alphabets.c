@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- *  * main - code is in the main
- *   *
- *    * Return: success(0)
- *     */
+ * main - code is in the main
+ *
+ * Return: success(0)
+ */
 int main(void)
 {
 	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
-                putchar(ch);
+		putchar(ch);
 	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
 	putchar('\n');
