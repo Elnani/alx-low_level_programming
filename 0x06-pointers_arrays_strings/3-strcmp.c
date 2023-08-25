@@ -1,27 +1,27 @@
 #include "main.h"
 /**
- * _strcmp -  string comparation
+ * _strcmp -   string 2 comparison
  * @s1:string
  * @s2:strmp
  * Return:int
  * Bwave/ Bright
  */
-int _strcmp(char *s2, char *s3)
+int _strcmp(char *s1, char *s2)
 {
-	while (((*s2 != '\0') && (*s3 != '\0')) && (*s2 == *s3))
+	while (((*s1 != '\0') && (*s2 != '\0')) && (*s1 == *s2))
 	{
+		s1++;
 		s2++;
-		s3++;
 	}
 
-	if (*s2 == *s3)
+	if (*s1 == *s2)
 	{
 		return (0);
 	}
 
 	else
 	{
-		return (*s2 - *s3);
+		return (*s1 - *s2);
 	}
 }
 
