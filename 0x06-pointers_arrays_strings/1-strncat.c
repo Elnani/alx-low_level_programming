@@ -1,11 +1,7 @@
-#include "stdio.h"
+#include "main.h"
 
 /**
  * _strncat - add two strings
- *
- * @src: string sourcead
- * @dest: string destination i
- * @n: int length
  *
  * Return: Success (dest)
  */
