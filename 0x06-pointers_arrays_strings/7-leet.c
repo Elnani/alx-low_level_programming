@@ -4,23 +4,23 @@
  * leet -  1337 encode
  * @s: string to encode
  *
- * Return: address of k
+ * Return: address of s
  */
-char *leet(char *k)
+char *leet(char *s)
 {
 	int i, j;
 	char a[] = "aAeEoOtTlL";
 	char b[] = "4433007711";
 
-	for (i = 0; *(k + i); i++)
+	for (i = 0; *(s + i); i++)
 	{
 		for (j = 0; j <= 9; j++)
 		{
-			if (a[j] == k[i])
-				k[i] = b[j];
+			if (a[j] == s[i])
+				s[i] = b[j];
 		}
 	}
-	return (k);
+	return (s);
 }
 /* Doing hard things is a must */
 
