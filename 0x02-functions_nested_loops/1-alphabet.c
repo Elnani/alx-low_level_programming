@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - _putchar to print small letters.
+ * print_alphabet - _putchar to print small letters.
  *
  * Return: void
  */
