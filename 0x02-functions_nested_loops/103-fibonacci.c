@@ -8,10 +8,11 @@ int main(void)
 {
 	unsigned long first, second, sum;
 	float sum_total;
-	while(1)
+
+	while (1)
 	{
 		sum = first + second;
-		if ( sum > 4000000)
+		if (sum > 4000000)
 		break;
 
 		if ((sum % 2) == 0)
