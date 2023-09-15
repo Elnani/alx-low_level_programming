@@ -7,9 +7,11 @@
 
 void drawDiagonalLine(int n)
 {
-	for (int i = 0; i < n; i++)
+	int i; int j;
+	
+	for (i = 0; i < n; i++)
 	{
-		for (int j = 0; j < n; j++)
+		for (j = 0; j < n; j++)
 		{
 			if (i == j)
 			{
@@ -20,6 +22,6 @@ void drawDiagonalLine(int n)
 				_putchar(' ');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
