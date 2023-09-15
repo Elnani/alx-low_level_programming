@@ -13,11 +13,11 @@ void drawDiagonalLine(int n)
 		{
 			if (i == j)
 			{
-				putchar('*');
+				_putchar(92);
 			}
 			else
 			{
-				putchar(' ');
+				_putchar(' ');
 			}
 		}
 		putchar('\n');
