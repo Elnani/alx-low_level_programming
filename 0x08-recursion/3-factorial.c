@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * factorial - Setting up for the factorials.
  * @n: including the parameters.
